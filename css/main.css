@@ -61,6 +61,10 @@ h5 {
 /* ------------------------------------------------------------------------------
 	Global Styles
 -------------------------------------------------------------------------------*/
+html {
+	background: rgb(248, 248, 252);
+}
+
 a {
 	color: #e84545;
 }
@@ -101,6 +105,7 @@ ul li {
 img {
 	border-radius: 3px;
 }
+
 /* ------------------------------------------------------------------------------
 	 Header
 -------------------------------------------------------------------------------*/
@@ -108,6 +113,7 @@ img {
 	position: fixed;
 	width: 100%;
 	z-index: 999;
+	/* border: 1px solid red;  */
 }
 #header .header-content {
 	margin: 0 auto;
@@ -295,18 +301,34 @@ img {
 -------------------------------------------------------------------------------*/
 .hero {
 	margin-top: 10%;
+	margin-left: 3%;
+	/* border: 1px solid green; */
+	/* min-height: em; */
+	margin-bottom: 8em;
 }
 .hero-content {
+	/* border: 1px solid blue;  */
 }
 .hero h1 {
 	font-size: 48px;
 	text-transform: uppercase;
 }
+
+.hero h2 {
+	margin-bottom: 5%;
+}
+
+.hero .hours {
+	text-align: right;
+	margin: 1em 1em 1em 0em;
+}
+
 .hero h4 {
 	font-weight: 400;
+	font-size: 35px;
 }
 .hero p {
-	padding-top: 20px;
+	padding-top: 3px;
 }
 /* ------------------------------------------------------------------------------
 	 Portfolio
@@ -392,9 +414,9 @@ img {
 	 Footer
 -------------------------------------------------------------------------------*/
 .footer {
-	text-align: left;
+	text-align: right;
 	background-color: #333;
-	padding: 7%;
+	padding: 2em 0;
 }
 .footer h4 {
 	color: #fff;
@@ -414,17 +436,4 @@ img {
 	color: #e84545;
 	font-size: 11px;
 	margin: 0 2px;
-}
-/* ------------------------------------------------------------------------------
-	 Work Details
--------------------------------------------------------------------------------*/
-.work-detail img {
-	width: 100%;
-	text-align: center;
-	margin: 5% 0 5% 0;
-}
-
-.work-detail a
-{
-	color:#000;
 }
